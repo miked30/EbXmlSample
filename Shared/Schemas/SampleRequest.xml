@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<op:DoSomething xmlns:op="http://my.ebXML.schema.com" xmlns:payload="http://payload.company.com">
+    <op:AnObject>
+        <payload:ImportantValue>42</payload:ImportantValue>
+    </op:AnObject>
+</op:DoSomething>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="EbXmlHttpService.TestEndpoint" CodeBehind="TestEndpoint.svc.cs" %>

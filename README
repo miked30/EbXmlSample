@@ -1,0 +1,7 @@
+WCF ebXML Message Processing Sample
+
+This is a little sample that demonstrates using WCF to process XML messages that use a non-SOAP mechanism for mapping messages to operations.
+
+The sample was created whilst testing out a solution for a client who wanted to interface with a large telecoms company e-business systems and it came out of a question I asked on Stack Overflow ().
+
+This solution assumes that the messages being mapped are ebXML messages, where the operation name is the name of the root element, but the solution is more generally applicable hence the posting to github.

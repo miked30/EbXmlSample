@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Operation" targetNamespace="http://my.ebXML.schema.com"
+    elementFormDefault="qualified" xmlns="http://my.ebXML.schema.com"
+    xmlns:payload="http://payload.company.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://payload.company.com" schemaLocation="Payload.xsd"/>
+  <xs:element name="DoSomething" type="DoSomethingType"/>
+  <xs:complexType name="DoSomethingType">
+    <xs:sequence>
+      <xs:element name="AnObject" type="payload:PayloadType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AcknowledgementResponse" type="AcknowledgementResponseType"/>
+  <xs:complexType name="AcknowledgementResponseType">
+    <xs:sequence>
+      <xs:element name="ResponseObject" type="payload:ResponseType"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

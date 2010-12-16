@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<op:AcknowledgementResponse xmlns:op="http://my.ebXML.schema.com" xmlns:payload="http://payload.company.com">
+    <op:ResponseObject>
+        <payload:Ok>true</payload:Ok>
+    </op:ResponseObject>
+</op:AcknowledgementResponse>

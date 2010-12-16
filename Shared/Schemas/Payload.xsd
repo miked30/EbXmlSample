@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Payload" targetNamespace="http://payload.company.com"
+    elementFormDefault="qualified" xmlns="http://payload.company.com"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:complexType name="PayloadType">
+    <xs:sequence>
+      <xs:element name="ImportantValue" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResponseType">
+    <xs:sequence>
+      <xs:element name="Ok" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
